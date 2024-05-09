@@ -1,0 +1,235 @@
+@keyframes MANZI {
+    from{
+      transform: translateX(-300px);
+    }
+    to{
+        transform: translateX(0);  
+    }
+}
+.body-1{
+    animation: MANZI 1s ease-in;
+    margin-top: -24px;
+    background-color: antiquewhite;
+}
+
+
+
+h3{
+border-left: -100px;
+background-color: antiquewhite;
+margin-top: 13;
+font-size: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+}
+
+.bubu{
+padding: 30px;
+border-left: -100px;
+}
+
+img{
+    width: 400px;
+    margin-bottom: -200;
+    margin-left: 500px;
+
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main{
+    width: 110%;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+
+}
+
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+.form{
+    width: 280px;
+    height: 500px;
+    background:transparent;
+    box-shadow: 100px;
+    position:center;
+    border: 2px solid;
+    border-radius: 30px;
+    padding: 65px;
+    margin-left: -200PX;
+    margin-top: 20px;
+    color:orange;
+}
+.form h2{
+    width: 230px;
+    font-family: sans-serif;
+    text-align: center;
+    color: green;
+    font-size: 22px;
+    background: orange;
+    border-radius: 500px;
+    margin: 7px;
+    padding: 9px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid green;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: yellowgreen;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: yellowgreen;
+    font-family: Arial;
+}
+.btnn{
+ width: 240px;
+height: 40px;
+ background: green;
+ border: 30px;
+ margin-top: 20px;
+ font-size: 18px;
+border-radius: 10px;
+outline:auto;
+cursor: pointer;
+color:rgb(0, 255, 255);
+transition: 0.4s ease ;
+}
+.btnn:hover{
+background:orange;
+color: black;
+
+}
+.btnn a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    
+
+}
+.form .link{
+    list-style: none;
+    margin-left: -50px;
+    margin-top: 7px;
+    font-size: 14px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.icons a{
+    text-decoration: none;
+    color:green;
+    margin-right: -3px;
+
+}
+.icons ion-icon{
+    color:rgb(255, 0, 119);
+    font-size: 25px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+    margin-top:10px ;
+
+}
+.icons ion-icon:hover{
+color: green;
+}
+
+.wrapper {
+    width: 300px;
+    height: 480px;
+    background: transparent;
+    border: 2px solid;
+    backdrop-filter:  blur(40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color:orange;
+    border-radius: 25px;
+    padding:  70px;
+    margin-left: 750px;
+    margin-top: -915px;
+}
+
+.wrapper h1 {
+font-size: 36px;
+text-align: center;
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: 30px;
+    margin-left: -20px;
+}
+
+.input-box input {
+width: 100%;
+height: 50%;
+background: transparent;
+border: none;
+outline: none;
+border: 2px solid;
+border-radius: 40px;
+font-size: 16px;
+color:orange;
+padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+    color:orange;
+}
+
+.input-box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+
+.wrapper .btn {
+    width: 100%;
+    height: 55px;
+    background: rgb(18, 124, 4);
+    border: none;
+    outline:auto;
+    border-radius: 40px;
+    box-shadow:  0 0 10px rgba(0,0,0, .1);
+    cursor: pointer;
+    font-size: 19px;
+    color:rgb(0, 255, 191);
+    font-weight: 800;
+    text-decoration: none;
+}
+.wrapper .btn:hover{
+background-color: orange;
+}
+
