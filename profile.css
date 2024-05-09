@@ -1,0 +1,138 @@
+.ico .fa{
+    font-size: 70px;
+    color: rgb(139, 214, 26);
+    margin-left: 200px;
+}
+.ico{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.ico:hover{
+    transform: scale(1.1);
+    transition: .7s ease-in-out;
+}
+.cat{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-top: 3em;
+    margin-bottom: 6em;
+  }
+  
+  ul li .active{
+    
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    font-family: cursive;
+    
+  }
+  
+  .one{
+    height: 460px;
+    width: 410px;
+    border-radius: 10px;
+    background-color:transparent;
+    border: 2px rgb(255, 255, 255) solid;
+  }
+  
+  .one img{
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-left: -500px;
+    width: 400px;
+    height: 450px;
+  }
+  
+  .one img:hover{
+    transform: scale(1.2);
+    transition: .7s ease-in-out;
+    box-shadow: 10px 10px 10px black;
+  }
+  .txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(241, 197, 86);
+    margin-left: -400px;
+    margin-top: 2em;
+    background-color: rgb(255, 255, 254);
+  }
+  .txt:hover{
+    transform: scale(1.1);
+    transition: .7s ease-in-out;
+  }
+  .txt .fa{
+    font-size: 40px;
+    color: rgb(151, 239, 19);
+    padding: 5px;
+  }
+  .txt h2{
+    margin-left: 40px;
+    font-size: 30px;
+    color: greenyellow;
+  }
+  
+  .cati{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-top: -40em;
+    margin-left: 1200px;
+    margin-bottom: 6em;
+  }
+  
+  ul li .active{
+    
+    color: red;
+    font-weight: bold;
+    font-size: larger;
+    font-family: cursive;
+    
+  }
+  
+  .onei{
+    height: 460px;
+    width: 410px;
+    border-radius: 10px;
+    background-color:transparent;
+    border: 2px rgb(255, 255, 255) solid;
+  }
+  
+  .onei img{
+    border-radius: 10px;
+    margin-top: 2em;
+    margin-left: -500px;
+    width: 400px;
+    height: 450px;
+  }
+  
+  .onei img:hover{
+    transform: scale(1.1);
+    transition: .7s ease-in-out;
+    box-shadow: 10px 10px 10px black;
+  }
+  .txti{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(241, 197, 86);
+    margin-left: -400px;
+    margin-top: 2em;
+    background-color: rgb(255, 255, 254);
+  }
+  .txti:hover{
+    transform: scale(1.1);
+    transition: .7s ease-in-out;
+  }
+  .txti .fa{
+    font-size: 40px;
+    color: rgb(151, 239, 19);
+    padding: 5px;
+  }
+  .txti h2{
+    margin-left: 40px;
+    font-size: 30px;
+    color: greenyellow;
+  }
+  
+  .them{
+    margin-left: -800px;
+  }
+  
