@@ -1,0 +1,120 @@
+.foot{
+
+    display: flex;
+    height: 350px;
+    width: 80%;
+    box-sizing: border-box;
+    margin-top: 20em;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: black;
+    border: 3px solid rgb(144, 239, 0);
+    border-radius: 20px;
+
+}
+
+.content{
+   
+    background-color: black;
+    height: 40px;
+    width: 300px;
+
+}
+
+.content h3{
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 4em;
+    color: white;
+    margin-top: -.5em;
+}
+
+.content ol{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2em;
+    margin-left: 5em;
+    line-height: 3em;
+   text-decoration: none;
+   list-style: none;
+}
+
+.content ol li::after{
+    content: "";
+    background: white;
+    width: 0%;
+    height: 3px;
+    margin: 2px;
+    display: block;
+    transition: .5s ease-in;
+}
+.content ol li:hover{
+    transform: scale(1.1);
+  transition: .7s ease-in-out;
+}
+
+.content li a{
+    color: white;
+}
+.content li a:hover{
+    color: rgb(157, 241, 32);
+}
+
+
+
+.content h5{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+   
+    margin-left: 4em;
+    position: relative;
+    bottom: 30px;
+}
+.content h2 a{
+    bottom: 30px;
+    position: relative;
+    color: rgb(149, 239, 85);
+    margin-left: 60px;
+    width: 30px;
+}
+.content h2 :hover{
+    transform: scale(1.1);
+  transition: .7s ease-in-out;
+}
+
+.content .image{
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.content h3{
+    
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 4em;
+    color:rgb(177, 236, 13);
+    margin-top: 2em;   
+}
+
+.addrs h3{
+    margin-top: .3em;
+}
+
+.addrs h5{
+    margin-left: 5em;
+}
+
+
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 290px;
+    margin-left: -230px;
+}

@@ -1,0 +1,127 @@
+.ico .fa{
+    font-size: 70px;
+    color: rgb(139, 214, 26);
+    margin-left: 200px;
+    padding: 9px;
+}
+.ico{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+}
+.ico:hover{
+    transform: scale(1.1);
+    transition: .7s ease-in-out;
+}
+
+
+
+.vid{
+    margin-left: 200px;
+    width: 100%;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.bod{
+    min-height: -100px;
+    background: #fbe6ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+.navigation{
+    position: fixed;
+    width: 50px;
+    height: 100%;
+    background:rgb(248, 215, 173);
+    transition: 0.5s;  
+}
+.navigation:hover
+{
+    width: 200px;
+}
+.navigation ol
+{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+}
+.navigation ol li
+{
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+.navigation ol li :hover
+{
+    background: #ea9b1d;
+}
+.navigation ol li a
+{
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color:rgb(0, 0, 0); 
+}
+.navigation ol li a .icon
+{
+    position: relative;
+    display: block;
+    max-width: 60px;
+    height: 77px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+.navigation ol li a .icon .fa
+{
+    font-size:44px ;
+}
+.navigation ol li a .title
+{
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    height: 60px;
+    line-height: 90px;
+    text-align: start;
+    white-space: nowrap;
+    color: white;
+
+}
+
+.toogle
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px ;
+    height: 60px;
+    background: #330748;
+    cursor: pointer;
+}
+.toogle:hover
+{
+    background: #ea1d63;
+}
+.toogle::before
+{
+    content:'\f0c9' ;
+    font-family: fontAwesome;
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    color: #fff; ;
+}
